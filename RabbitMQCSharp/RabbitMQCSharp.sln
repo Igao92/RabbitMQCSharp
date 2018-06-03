@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQCSharpSend", "Rabbi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQCSharpReceive", "RabbitMQCSharpReceive\RabbitMQCSharpReceive.csproj", "{2CAB0EC6-05B2-4146-B0C0-97F2A1A24CCD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelloWorld", "HelloWorld", "{4A003B3F-15AB-4E4A-B96D-715BF6168143}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work queues", "Work queues", "{6026FCF9-1D13-40FF-8765-D44728F6D3B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQCSharpNewTask", "RabbitMQCSharpNewTask\RabbitMQCSharpNewTask.csproj", "{9C3A3075-0CC3-4E98-B3DA-DD59EA760AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQCSharpWorker", "RabbitMQCSharpWorker\RabbitMQCSharpWorker.csproj", "{02951AD9-6EFB-4653-B605-540955B1F435}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +29,23 @@ Global
 		{2CAB0EC6-05B2-4146-B0C0-97F2A1A24CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CAB0EC6-05B2-4146-B0C0-97F2A1A24CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CAB0EC6-05B2-4146-B0C0-97F2A1A24CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3A3075-0CC3-4E98-B3DA-DD59EA760AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3A3075-0CC3-4E98-B3DA-DD59EA760AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3A3075-0CC3-4E98-B3DA-DD59EA760AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3A3075-0CC3-4E98-B3DA-DD59EA760AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02951AD9-6EFB-4653-B605-540955B1F435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02951AD9-6EFB-4653-B605-540955B1F435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02951AD9-6EFB-4653-B605-540955B1F435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02951AD9-6EFB-4653-B605-540955B1F435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26677B8C-9F4E-47B0-8A86-57618C2B1785} = {4A003B3F-15AB-4E4A-B96D-715BF6168143}
+		{2CAB0EC6-05B2-4146-B0C0-97F2A1A24CCD} = {4A003B3F-15AB-4E4A-B96D-715BF6168143}
+		{9C3A3075-0CC3-4E98-B3DA-DD59EA760AE1} = {6026FCF9-1D13-40FF-8765-D44728F6D3B4}
+		{02951AD9-6EFB-4653-B605-540955B1F435} = {6026FCF9-1D13-40FF-8765-D44728F6D3B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB774688-5542-41D5-8E2D-837292F0741F}
